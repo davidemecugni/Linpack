@@ -63,7 +63,6 @@ void displaySetup() {
 
 void setup() {
   pinMode(BUILDIN_LED, OUTPUT);
-  pinMode(RED_LED, OUTPUT);
   pinMode(POTENTIOMETER, INPUT);
   serialSetup();
   displaySetup();
